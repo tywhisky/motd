@@ -42,3 +42,4 @@ Module files have to start with a two digit number followed by a hyphen. You may
 
 ## Credits
 This MOTD is hugely inspired by [this repo](https://github.com/bcyran/fancy-motd) by Bazyli Cyran.
+Generate message from a image by [this repo](https://github.com/RoBorg/MOTD) by RoBorg.
