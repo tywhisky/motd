@@ -13,11 +13,7 @@ Then run `motd.sh`:
 ./motd/motd.sh
 ```
 
-This runs all the scripts in `modules` directory in order, `run-parts` style, and formats the output.
-
-If any modules are missing in your output, plese see [requirements](#requirements).
-
-You can also pass the config file path as the script argument (see [configuration](#configuration)):
+At last:
 ```shell
 ln -S ./motd/motd.sh /etc/update-motd.d/10-motd
 ```
@@ -29,6 +25,7 @@ In order to run all the available modules the following programs are required:
 * [`curl`](https://curl.se/)
 * [`bc`](https://www.gnu.org/software/bc/)
 * [`fortune`](https://software.clapper.org/fortune/)
+* [`lolcat`](https://github.com/busyloop/lolcat)
 
 This list excludes the obvious ones, like [`tmux`](https://github.com/tmux/tmux) for `tmux` module.
 
